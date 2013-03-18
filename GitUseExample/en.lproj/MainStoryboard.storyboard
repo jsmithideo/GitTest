@@ -25,11 +25,18 @@
                                     <action selector="clickTheButton:" destination="2" eventType="touchUpInside" id="8l2-hX-WFt"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Hello World" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v5Z-bP-9eu">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="v5Z-bP-9eu" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="CoA-WC-Ky8"/>
                             <constraint firstItem="Vau-6u-MiQ" firstAttribute="top" secondItem="3" secondAttribute="top" constant="252" id="S7Y-Ne-dLv"/>
-                            <constraint firstItem="Vau-6u-MiQ" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="pxs-U4-ijE"/>
+                            <constraint firstItem="v5Z-bP-9eu" firstAttribute="top" secondItem="3" secondAttribute="top" constant="104" id="kXa-wp-VTc"/>
+                            <constraint firstItem="v5Z-bP-9eu" firstAttribute="centerX" secondItem="Vau-6u-MiQ" secondAttribute="centerX" type="default" id="xOF-QY-BxW"/>
                         </constraints>
                     </view>
                 </viewController>
