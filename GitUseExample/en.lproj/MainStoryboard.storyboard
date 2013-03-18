@@ -35,12 +35,19 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Milne Modification" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8vI-0v-FId">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="LXe-TZ-UBu" firstAttribute="centerX" secondItem="Vau-6u-MiQ" secondAttribute="centerX" type="default" id="6bW-rj-yp0"/>
+                            <constraint firstItem="8vI-0v-FId" firstAttribute="centerX" secondItem="Vau-6u-MiQ" secondAttribute="centerX" type="default" id="QE1-qa-OsM"/>
                             <constraint firstItem="LXe-TZ-UBu" firstAttribute="centerX" secondItem="v5Z-bP-9eu" secondAttribute="centerX" type="default" id="RqB-qw-xBb"/>
                             <constraint firstItem="Vau-6u-MiQ" firstAttribute="top" secondItem="3" secondAttribute="top" constant="252" id="S7Y-Ne-dLv"/>
+                            <constraint firstAttribute="bottom" secondItem="8vI-0v-FId" secondAttribute="bottom" constant="105" id="XjV-PI-FUD"/>
                             <constraint firstItem="LXe-TZ-UBu" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="e4Z-tJ-MiR"/>
                             <constraint firstItem="v5Z-bP-9eu" firstAttribute="top" secondItem="3" secondAttribute="top" constant="104" id="kXa-wp-VTc"/>
                             <constraint firstItem="LXe-TZ-UBu" firstAttribute="top" secondItem="3" secondAttribute="top" constant="166" id="trN-0k-z3T"/>
